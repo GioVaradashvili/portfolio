@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Giorgi Varadashvili</title>
+    <link rel="icon" type="image/x-icon" href="./pictures/book.png">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="stars"></div> 
+
+    <header>
+        <div class="logo">Giorgi Varadashvili</div>
+        <nav class="nav-menu">
+            <a href="#hero">Main</a>
+            <a href="#about">About Me</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <button class="menu-toggle" aria-label="Open Manu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+    </header>
+
+    <section id="hero" class="hero-section">
+        <h1>Hello, i'm Giorgi Varadashvili</h1>
+        <p>
+        💻 Full-Stack Developer
+        <br>
+        🎨 Graphic Desginer
+        <br>
+        🤖 Algorithms
+        <br>
+        🎮 Game Developer
+        <br>
+        📃 Data Sientistist
+        </p>
+        <a href="#projects" class="cta-button">Let's see projects</a>
+    </section>
+
+    <section id="about" class="content-section about-section-layout">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div class="profile-photo">
+                <img src="./pictures/Varada.jpg" alt="Profile picture" class="glow-on-hover">
+            </div>
+            <div class="about-text">
+                <p>Hello, my name is Giorgi Varadashvili from Georgia I am full stuck developer i can create web sites front-end and back-end my hobby's is graphic design and small notes or love story’s also</p>
+                <p>I have other channel in instagram for a love because I love one girl I like also reading books my favourite book is “you are not alone” and “The sun, the moon and the cornfield” I like comedy movies sometimes historic also.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="content-section">
+        <h2>Projects</h2>
+        <div class="project-grid">
+            
+            <div class="project-card">
+                <div class="project-image-container">
+                    <img src="./pictures/Registration Form.png" alt="პროექტი 1-ის სქრინშოტი" loading="lazy">
+                </div>
+                <div class="project-info">
+                    <h3>First project: Registration form</h3>
+                    <p>HTML,CSS and JavaScript Website</p>
+                    <a href="https://new-project-one-steel.vercel.app/" class="project-link">View</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image-container">
+                    <img src="./pictures/project v1.png" alt="პროექტი 2-ის სქრინშოტი" loading="lazy">
+                </div>
+                <div class="project-info">
+                    <h3>Second project: Graphic block</h3>
+                    <p>HTML and CSS modern cube design</p>
+                    <a href="https://my-projects-seven-nu.vercel.app/" class="project-link">View</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image-container">
+                    <img src="./pictures/project v2.png" alt="პროექტი 3-ის სქრინშოტი" loading="lazy">
+                </div>
+                <div class="project-info">
+                    <h3>Third project</h3>
+                    <p>Basic HTML and CSS project for design</p>
+                    <a href="https://my-projects-gprt.vercel.app/" class="project-link">View</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="content-section">
+  <h2>ჩემი სოციალური ქსელები</h2>
+  
+  <div class="contact-content">
+    <h1>My Social Media </h1>
+
+    <div class="social-links">
+      <a href="https://www.facebook.com/varadashvili.giorgi?locale=ka_GE" target="_blank" class="social-icon facebook">Facebook</a> 
+      <a href="https://www.instagram.com/varadashvili_giorgi_/" target="_blank" class="social-icon instagram">Instagram</a>
+      <a href="https://www.linkedin.com/in/giorgi-varadashvili-a172012b6/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGns7gmLZFmVhOQIo8zjrLov-RKV5y4SjqGGNpPrFySEm9ED8nh4JkQbVon9_M_aem_V5CLkFceRadSzQAXBxAvCQ" target="_blank" class="social-icon linkedin">LinkedIn</a>
+      <a href="https://www.codewars.com/users/GioVaradashvili" target="_blank" class="social-icon codewars">Codewars</a>
+      <a href="https://github.com/GioVaradashvili" target="_blank" class="social-icon github">GitHub</a>
+    </div>
+
+    </div>
+</section>
+    </div> <form class="contact-form">
+    <h3>Leave us a message</h3>
+    
+    <div class="form-group">
+      <label for="name">Name and lastname</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name and lastname"required>
+    </div>
+    
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+    </div>
+    
+    <div class="form-group">
+      <label for="message">Text</label>
+      <textarea id="message" name="message" rows="5" placeholder="Enter text" required></textarea>
+    </div>
+    
+    <button type="submit" class="submit-button">Submit</button>
+  </form>
+    <footer>
+        <p>&copy; 2025 Giorgi Varadashvili. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
